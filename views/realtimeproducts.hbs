@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Products</title>
+</head>
+<body>
+    <h1>Realtime Products</h1>
+    <ul id="product-list">
+        <!-- Aquí se mostrarán los productos -->
+    </ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        // Manejar evento 'productos' para actualizar la lista de productos
+        socket.on('productos', (productos) => {
+            const productList = document.getElementById('product-list');
+            productList.innerHTML = '';
+
+            productos.forEach((producto) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${producto.name} - ${producto.price}`;
+                productList.appendChild(listItem);
+            });
+        });
+    </script>
+</body>
+</html>

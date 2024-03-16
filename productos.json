@@ -1,0 +1,12 @@
+[
+    {"id": 1, "name": "Remera de algodón", "price": 15.99, "category": "Ropa", "description": "Remera de algodón suave y cómoda"},
+    {"id": 2, "name": "Pantalones jean", "price": 29.99, "category": "Ropa", "description": "Pantalones jean clásicos"},
+    {"id": 3, "name": "Zapatillas deportivas", "price": 39.99, "category": "Calzado", "description": "Zapatillas deportivas para correr"},
+    {"id": 4, "name": "Anteojos de sol", "price": 19.99, "category": "Accesorios", "description": "Anteojos de sol polarizados con protección UV"},
+    {"id": 5, "name": "Bolso de mano", "price": 24.99, "category": "Bolsos", "description": "Bolso de mano elegante y práctico"},
+    {"id": 6, "name": "Reloj de pulsera", "price": 49.99, "category": "Accesorios", "description": "Reloj de pulsera analógico con correa de cuero"},
+    {"id": 7, "name": "Botella de agua reutilizable", "price": 9.99, "category": "Accesorios", "description": "Botella de agua reutilizable"},
+    {"id": 8, "name": "Buzo con capucha", "price": 34.99, "category": "Ropa", "description": "Buzo con capucha"},
+    {"id": 9, "name": "Mochila", "price": 39.99, "category": "Bolsos", "description": "Mochila con varios compartimentos"},
+    {"id": 10, "name": "Paraguas", "price": 14.99, "category": "Accesorios", "description": "Paraguas resistente al viento"}
+]
